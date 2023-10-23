@@ -85,7 +85,12 @@
     .header__logo img {
         width: 94px;
     }
-    .header__phone a {
-        font-size: 13px;
+
+    .header__phone {
+        margin-bottom: 15px;
+
+        a {
+            font-size: 13px;
+        }
     }
 }

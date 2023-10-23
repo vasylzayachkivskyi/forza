@@ -30,6 +30,23 @@ $(document).ready(function () {
         }
     });
 
+     // specialists slider --------------- //
+    var swiper = new Swiper(".testimonials__slider", {
+        slidesPerView: 'auto',
+        spaceBetween: 15,
+        speed: 600,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            991: {
+                spaceBetween: 20,
+            },
+        }
+    });
+
     // popup ------------------------ //
     $('.popup__btn').on('click', function () {
         var indexPopup = $(this).attr('data-popup');
