@@ -499,6 +499,7 @@
 
     &-img {
         border-radius: 35px;
+        height: 100%;
         overflow: hidden;
     }
 
@@ -998,12 +999,89 @@
 // ================= ADAPTIVE ====================== //
 
 @media (max-width: 1599.8px) {
+    .features__row-image {
+        height: 280px;
+    }
+
+    .features__row {
+        padding: 30px 45px;
+    }
+
+    .features__row-content h3 {
+        font-size: 40px;
+    }
+
     .tariffs__item {
         padding: 30px 20px;
     }
 }
 
+@media (max-width: 1399.8px) {
+    .specialists__row {
+        margin-bottom: 60px;
+    }
+
+    .specialists {
+        margin-bottom: 80px;
+    }
+
+    .specialists__slider .swiper-slide {
+        width: 460px;
+    }
+
+    .specialists__slider-wrap {
+        padding-right: 0 !important;
+    }
+
+    .features {
+        padding-bottom: 100px;
+    }
+
+    .features__row-content h3 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .features__row-content p {
+        font-size: 20px;
+    }
+
+    .features__row-image {
+        height: 230px;
+    }
+
+    .features__row-content {
+        max-width: 60%;
+    }
+}
+
 @media (max-width: 1199.8px) {
+    .specialists__row p {
+        font-size: 24px;
+        max-width: 500px;
+    }
+
+    .features__row-image {
+        height: 210px;
+    }
+
+    .features__row {
+        padding: 30px;
+
+        &+.features__row {
+            margin-top: 50px;
+        }
+    }
+
+    .features__row-content p {
+        font-size: 18px;
+    }
+
+    .features__row-content h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
     .about__content {
         padding-left: 20px;
     }
@@ -1033,6 +1111,34 @@
 }
 
 @media (max-width: 991.8px) {
+    .specialists__row {
+        margin-bottom: 40px;
+    }
+
+    .features .secttitle {
+        margin-bottom: 60px;
+    }
+
+    .features__row-content {
+        max-width: 63%;
+    }
+
+    .features__row {
+        padding: 24px 20px;
+    }
+
+    .features__row-content p {
+        font-size: 16px;
+    }
+
+    .features__row-image {
+        height: 150px;
+    }
+
+    .features {
+        padding-bottom: 70px;
+    }
+
     .tariffs__item-btn {
         text-align: center;
 
@@ -1116,9 +1222,39 @@
 }
 
 @media (max-width: 767.8px) {
+    .specialists__row p {
+        font-size: 20px;
+        max-width: 380px;
+    }
+
+    .features__row-image {
+        width: 160px;
+        bottom: initial;
+        top: -20px;
+        height: auto;
+    }
+
+    .features__row {
+        padding: 0 10px 40px 20px;
+    }
+
+    .features__row-content {
+        max-width: 100%;
+
+        h3 {
+            width: 60%;
+            height: 100px;
+            font-size: 24px;
+            margin: 0;
+            display: inline-flex;
+            align-items: center;
+        }
+    }
+
     .tariffs {
         margin: 150px 0 90px;
     }
+
     .frame-top {
         height: 220px;
         top: -219px;
@@ -1204,6 +1340,41 @@
 }
 
 @media (max-width: 575.8px) {
+    .specialists {
+        margin-bottom: 50px;
+    }
+
+    .specialists__slide-info {
+        width: calc(100% - 30px);
+        bottom: -50px;
+        height: 114px;
+    }
+
+    .specialists__slider .swiper-slide {
+        width: 310px;
+    }
+
+    .specialists__slide {
+        height: 400px;
+    }
+
+    .specialists__slider-arrows {
+        display: none;
+    }
+
+    .features .secttitle {
+        margin-bottom: 50px;
+    }
+
+    .features__row+.features__row {
+        margin-top: 35px;
+    }
+
+    .features__row-content h3 {
+        font-size: 20px;
+        width: 50%;
+    }
+
     .tariffs .secttitle {
         margin-bottom: 30px;
     }
@@ -1254,6 +1425,45 @@
 }
 
 @media (max-width: 349.8px) {
+    .specialists__row p {
+        font-size: 18px;
+    }
+
+    .specialists__slide-info {
+        width: calc(100% - 20px);
+        bottom: -30px;
+        height: 100px;
+    }
+
+    .specialists__slider .swiper-slide {
+        width: 297px;
+    }
+
+    .specialists {
+        margin-bottom: 20px;
+    }
+
+    .specialists__slide {
+        height: 380px;
+    }
+
+    .features__row {
+        padding: 0px 10px 30px 15px;
+    }
+
+    .features__row-image {
+        width: 135px;
+        top: -10px;
+    }
+
+    .features__row-content h3 {
+        font-size: 18px;
+    }
+
+    .testimonials__slider .swiper-slide {
+        width: 297px;
+    }
+
     .tariffs__item-title h3 {
         font-size: 26px;
     }

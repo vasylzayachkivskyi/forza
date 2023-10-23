@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     // specialists slider --------------- //
     var swiper = new Swiper(".specialists__slider", {
-        slidesPerView: 1.5,
+        slidesPerView: 'auto',
         spaceBetween: 20,
         loop: true,
         speed: 600,
@@ -24,7 +24,7 @@ $(document).ready(function () {
             prevEl: ".swiper-button-prev",
         },
         breakpoints: {
-            767: {
+            1400: {
                 slidesPerView: 3,
             },
         }
