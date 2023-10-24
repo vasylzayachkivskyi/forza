@@ -3,11 +3,11 @@ $(document).ready(function () {
 
     // services slider --------------- //
     var swiper = new Swiper(".services__slider", {
-        slidesPerView: 1.5,
+        slidesPerView: 'auto',
         spaceBetween: 15,
         speed: 600,
         breakpoints: {
-            767: {
+            768: {
                 slidesPerView: 3,
             },
         }
@@ -93,4 +93,9 @@ $(document).ready(function () {
         $(this).next('.study__row-descr').slideToggle();
     });
 
+});
+
+AOS.init({
+    duration: 500,
+    easing: 'ease-in'
 });
