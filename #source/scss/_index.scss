@@ -787,6 +787,7 @@
 
 .testimonials__slide-head {
     margin-bottom: 40px;
+    display: flex;
 
     .ava {
         width: 56px;
@@ -1187,6 +1188,11 @@
 
 @media (max-width: 991.8px) {
 
+    .study__btn {
+        margin-top: 50px;
+    }
+    
+
     .study__row+.study__row {
         margin-top: 68px;
     }
@@ -1360,6 +1366,11 @@
 }
 
 @media (max-width: 767.8px) {
+
+    .study__btn {
+        margin-top: 40px;
+    }
+    
     .study .secttitle {
         margin-bottom: 50px;
     }
