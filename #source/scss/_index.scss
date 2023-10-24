@@ -1363,12 +1363,17 @@
     .study .secttitle {
         margin-bottom: 50px;
     }
+
     .study__row-head {
         padding: 35px 20px;
     }
 
     .study__row-descr {
         padding: 20px 20px 14px;
+    }
+
+    .study__row+.study__row {
+        margin-top: 40px;
     }
 
     .study__row-head h3 {
@@ -1520,20 +1525,25 @@
     .study .secttitle {
         margin-bottom: 30px;
     }
+
     .study__row-head img {
         height: 110px;
     }
+
     .study__row-head {
         padding: 35px 15px;
     }
+
     .study__row-descr {
         padding: 20px 10px 14px;
     }
+
     .study__row-descr ul li {
         margin-right: 0;
         width: 50%;
         padding-right: 10px;
     }
+
     .study__row-descr li {
         font-size: 14px;
     }
@@ -1676,15 +1686,19 @@
     .study__row-head {
         padding: 30px 15px;
     }
+
     .study__row-head img {
         height: 90px;
     }
+
     .study__row-descr li {
         font-size: 12px;
     }
+
     .study__row-descr ul {
         padding-left: 15px;
     }
+
     .methods__image img {
         width: 100%;
         margin-top: 30px;
